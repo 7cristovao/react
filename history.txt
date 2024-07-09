@@ -1,0 +1,42 @@
+ 1943  npx create-react-app react-battisti
+ 1944  cd react-battisti/
+ 1945  code .
+ 1946  npm start
+ 1947  exit
+ 1948  touch src/components/Button.js
+ 1949  mkdir src/components/evento
+ 1950  mv src/components/Button.js src/components/evento/
+ 1951  touch src/components/Condicional.js
+ 1952  cp -r App.js App.js.old
+ 1953  cp -r src/components/App.js src/components/App.js.old
+ 1954  cp -r src/App.js src/App.js.old
+ 1960  exit
+ 1961  mv src/App.js.old2 src/App.js.old3
+ 1962  mv src/App.js.old src/App.js.old2
+ 1963  mv src/App.js src/App.js.old
+ 1964  cp -r src/App.js.old src/App.js
+ 1965  touch src/components/OutraLista.js
+ 1966  mv src/App.js.old src/App.js.old1.renderizacaoCondicional.js
+ 1967  mv src/App.js.old2 src/App.js.old2.testandoEventos.js
+ 1968  mv src/App.js.old3 src/App.js.old3.testandoProps.js
+ 1969  cd src
+ 1970  mv App.js.old1.renderizacaoCondicional.js App.js.old3.renderizacaoCondicional.js
+ 1971  mv App.js.old3.testandoProps.js App.js.old1.testandoProps.js
+ 1972  cp -r App.js App.js.old4.renderizacaoDeListas.js
+ 1973  touch components/SeuNome.js
+ 1974  touch components/Saudacao.js
+ 1975  cp -r App.js App.js.old5.stateLift.js
+ 1976  cd ..
+ 1977  npm install react-router-dom
+ 1978  mkdir src/pages
+ 1979  touch src/pages/Home.js
+ 1980  touch src/pages/Contato.js
+ 1981  touch src/pages/Empresa.js
+ 1983  touch src/components/Navbar.js
+ 1984  mkdir src/layout
+ 1985  mv src/components/Navbar.js src/layout/
+ 1986  touch src/layout/Footer.js
+ 1987  touch src/layout/Navbar.module.css
+ 1989  cp -r src/App.js src/App.js.old6.reactRouter.js
+ 1990  npm install react-icons
+ 1999  touch src/layout/Footer.modules.css
